@@ -1,0 +1,281 @@
+.modal-body
+{
+	height: 200px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#lblError {
+	color: gold;
+	font-size: 30px;
+}
+img {
+    width: 90px;
+    height: 90px;
+    align-content: center;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+    border-radius: 50%;
+    float: left;
+}
+
+#mainbody
+{
+	color: white;
+}
+#phones
+{
+	width:100%;
+	height: 100%;
+	margin: 10%;
+}
+.form-group {    
+    padding: 1%;
+    width: 30%;
+}
+.form-group1 {    
+    /* padding: 1%; */
+    width: 100%;
+}
+label {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: calc(8px + 1vw);
+    font-weight: 100;
+    color: black;
+    text-align: left;
+}
+#userdtls {
+    align-content: left;
+    width: 80%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: calc(10px + 1vw);
+    font-weight: 200;
+    color: black;
+    margin-left: 10%;
+    /* margin-top: 3%; */
+     height: 31%; 
+}
+.user-pbody {
+    align-content: left;
+    /* height: 20%; */
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: calc(8px + 1vw);
+    font-weight: 200;
+    color: black;
+    text-align: left;
+    background: white;
+    margin-left: 20px;
+  }
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* background: url("../images/back3.jpg"); */
+	 background: url("../images/back3.jpg");
+    background-size: cover;
+	overflow-x:hidden;
+}
+
+html {
+    font-family: "helvetica neue", sans-serif;
+}
+.nav {
+    padding-top:1%;
+    padding-bottom:1%;
+    text-align: right;
+    height: 20%;
+    /* line-height: 10px; */
+    /* background: white; */
+    align-content: center;
+    text-align: center;
+}
+.navbar-default {
+  /* background-color: navy ; */
+  background-image: none;
+  background-repeat: no-repeat;
+  color: gold;
+  /* border-bottom: 1px solid black; */
+  /* background: url("../images/1.jpg"); */
+  background: url("../images/1.jpg");
+  background-size: cover;
+  font-family: 'Courgette', cursive;
+ }
+.card {    
+	margin-top: 1%;
+    font-size: 20px;   
+    border: 2px solid grey;
+}
+#result {
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: calc(16px + 1vw);
+    font-weight: 400;
+    color: white;
+    margin-left: 10%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 2px solid #585379;
+    background-color: #585379;
+}
+
+.container
+{
+    align-content: center;
+    width: 80%;
+    padding-top: 4%;
+}
+
+.card-body
+{
+    align-content: left;
+    width: 90%;
+    border: grey;
+    background: white;
+    width: 100%;
+}
+.panel{
+	align-content: center;
+	margin-left: 7%;
+	width: 88%;
+	font-family: 'Courgette', cursive;
+	color: gold;
+}
+#mainPanel {
+    align-content: center;
+    width: 80%;	
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: calc(16px + 1vw);
+    font-weight: 600;
+    color: black;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.ShowTimer
+{
+    align-content: right;
+    text-align: right;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.ShowQuizz
+{
+    align-content: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+}
+.panel-body {
+    align-content: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: calc(10px + 1vw);
+    font-weight: 200;
+    color: black;
+    text-align: left;
+    background: white;
+    margin-left: 40px;
+	width: 85%;
+}
+.bodyTitle
+{
+      text-align: center;
+      padding-bottom:5%;
+      /* font-size: 20px; */
+      font-size: calc(18px + 1vw);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+	  font-weight:bold;
+	  /* font-size:40px; */
+      /* padding: 20px; */
+      color: black;  
+	  font-style: italic;
+}  
+
+#QuizzForm {
+    /* check how to use cal here ?? for padding top */
+    padding-top: 3%;
+    /* padding-top: calc(100vw * (5/16)); */
+    /* height: calc(50vw * (9/16)); */
+    margin-left:  10%; 
+	width: 80%;
+	align-content: center;
+    /* background: url("../images/grader.jpg");     */
+  }
+  
+  
+
+@media only screen and (max-width: 500px) {
+  
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    #mainBody {
+        /* check how to use cal here ?? for padding top */
+        padding-top: 28%;
+        /* padding-top: calc(100vw * (5/16)); */
+        /* height: calc(50vw * (9/16)); */
+        margin-left: 30px;
+        width: 80%;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

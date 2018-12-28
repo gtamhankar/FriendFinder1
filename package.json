@@ -1,0 +1,15 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Compatibility-based \"FriendFinder\" application",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {   
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
